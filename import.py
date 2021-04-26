@@ -2,7 +2,7 @@ from caldav import DAVClient
 from caldav.lib.error import AuthorizationError
 from dotenv import load_dotenv
 from getpass import getpass
-from os import chdir, getcwd, listdir
+from os import chdir, getcwd, getenv, listdir
 from os.path import isdir, join
 from sys import exit
 
